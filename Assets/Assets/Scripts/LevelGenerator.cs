@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*
+ * 
+ * @Author: Andres Quan 17652
+ * 
+ */
+
 public class LevelGenerator : MonoBehaviour {
 
 	// Use this for initialization
@@ -14,6 +21,7 @@ public class LevelGenerator : MonoBehaviour {
 		
 	}
 
+    //Method to generate platforms
     public void Regenerate()
     {
        // Instantiate(Platform, new Vector2(-2, 1), gameObject.transform.rotation);
